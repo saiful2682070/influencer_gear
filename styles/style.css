@@ -10,8 +10,8 @@
 
 /* Start Navbar */
 .navbar {
-    width: 65%;
-    max-width: 925px;
+    width: 75%;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -46,4 +46,58 @@
     font-weight: 600;
     text-align: left;
 }
+
 /* End Navbar Design */
+/* Start Hero Design */
+.hero {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 133px;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    color: rgba(58, 58, 58, 1);
+    font-style: Bold;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    color: rgba(58, 58, 58, 1);
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.hero button {
+    border-radius: 41px;
+    background: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero_img{
+    max-width: 445px;
+    max-height: 455px;
+    background-image: url("/images/Circle\ design.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* End Hero Design */
