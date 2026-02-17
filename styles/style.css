@@ -144,7 +144,7 @@ hr {
 .carts {
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -154,7 +154,8 @@ hr {
     background: rgba(255, 255, 255, 1);
     padding: 16px;
 }
-.single_cart img{
+
+.single_cart img {
     width: 100%;
     height: auto;
     margin-bottom: 16px;
@@ -197,14 +198,62 @@ hr {
     text-align: left;
     margin-bottom: 8px;
 }
-.button_more{
+
+.button_more {
     text-align: right;
     font-style: Bold;
     font-size: 14px;
     font-weight: 700;
     color: rgba(224, 44, 109, 0.87);
 }
+
 /* End Design Cart */
 /* Start Design feature */
+.features {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 96px;
+}
+
+.features_content h2 {
+    color: rgba(10, 8, 38, 1);
+    font-style: Bold;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.features_content p {
+    color: rgba(108, 108, 108, 1);
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.features_button {
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    background: rgba(224, 44, 109, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px 10px 24px;
+    border: none;
+}
 
 /* End Design feature */
+/* Start Design footer */
+
+/* End Design footer */
